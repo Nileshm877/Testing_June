@@ -15,13 +15,9 @@ import io.cucumber.junit.CucumberOptions;
 		   //path of step definition file
 		   
 		   glue = {"june_stepDefination","June_utiliy"},
-				   plugin = { "pretty", 
-						  
+		   plugin = { "pretty", 
 						   "html:target/cucumbereport.html", 
-						   "json:target/cucumber.json"
-						   
-						   
-		                     }
+						   "json:target/cucumber.json"}
 		           
 )
 public class June_runner 
