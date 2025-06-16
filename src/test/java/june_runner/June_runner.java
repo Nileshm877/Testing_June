@@ -18,7 +18,7 @@ import io.cucumber.junit.CucumberOptions;
 				   plugin = { "pretty", 
 						  
 						   "html:target/cucumbereport.html", 
-						   "json:target//cucumber.json"
+						   "json:target/cucumber.json"
 						   
 						   
 		                     }
